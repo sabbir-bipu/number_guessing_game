@@ -41,11 +41,13 @@ function playGame() {
                         guessesLeft = 3;
                         break;
                     } else if (guessedNumber > correctAns) {
-                        alert("Correct ans is smaller than your guessed number!");
                         guessesLeft--;
+                        alert("Correct ans is smaller than your guessed number! Guesses Left : "+ guessesLeft);
+                        
                     } else {
-                        alert("Correct ans is bigger than your guessed number!")
                         guessesLeft--;
+                        alert("Correct ans is bigger than your guessed number! Guesses Left : "+ guessesLeft);
+                        
                     }
                 }
             }
