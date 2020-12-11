@@ -42,12 +42,10 @@ function playGame() {
                         break;
                     } else if (guessedNumber > correctAns) {
                         guessesLeft--;
-                        alert("Correct ans is smaller than your guessed number! Guesses Left : "+ guessesLeft);
-                        
+                        alert("Correct ans is smaller than your guessed number! Guesses Left : "+ guessesLeft);                        
                     } else {
                         guessesLeft--;
-                        alert("Correct ans is bigger than your guessed number! Guesses Left : "+ guessesLeft);
-                        
+                        alert("Correct ans is bigger than your guessed number! Guesses Left : "+ guessesLeft);                        
                     }
                 }
             }
